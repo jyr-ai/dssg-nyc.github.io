@@ -53,7 +53,7 @@ const Footer = () => {
               <p>&copy; 2026 Data Diplomats for Nonprofits, Inc. — 501(c)(3) IRS-registered organization. All rights reserved.</p>
             </div>
             <div className="footer-attribution">
-              <p>Support Civic Tech in New York City</p>
+              <p className="footer-address">{siteProperties.address}</p>
             </div>
           </div>
         </div>
