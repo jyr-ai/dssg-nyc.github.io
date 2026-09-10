@@ -165,6 +165,10 @@
   margin: 0;
 }
 
+.footer-address {
+  font-style: normal;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .footer-main {
