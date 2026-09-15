@@ -33,8 +33,9 @@ const Footer = () => {
                 </div>
               </div>
               <p className="brand-description">
-                We're a 501(c)(3) nonprofit that trains volunteers to bring human-centered,
-                frontier AI to mission-driven organizations. IRS-registered, EIN 41-4925712.
+                We&apos;re a 501(c)(3) that runs the Data Diplomats Training Program —
+                matching career-ready NYC technologists with funding-scarce nonprofits
+                to solve data, IT, and human-centered AI problems. IRS-registered, EIN 41-4925712.
               </p>
               <div className="social-links">
                 {Object.entries(siteProperties.socialProfiles).map(([key, value]) => {

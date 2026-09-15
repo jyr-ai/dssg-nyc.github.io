@@ -21,14 +21,34 @@ const Home = () => {
       <div className="hero-overlay" />
       <div className="hero-content container">
         <div className="hero-text">
+          <p className="hero-eyebrow">{siteProperties.heroEyebrow}</p>
           <h1 className="hero-title">
             {siteProperties.name}
           </h1>
           <p className="hero-subtitle lead">
-            
+            {siteProperties.heroSubtitle}
           </p>
           <p className="hero-description">
-            NYC Data Science for Social Good (DSSG) is a civic tech volunteer group led by the Data Diplomats for Nonprofits. We’re NYC grassroot organizers uniting data scientists, AI engineers, and IT professionals to drive social impact through pro bono nonprofit work. </p>
+            {siteProperties.heroDescription}
+          </p>
+          <div className="hero-buttons">
+            <a
+              className="button"
+              href={siteProperties.volunteerApplyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Apply to Train
+            </a>
+            <a
+              className="button secondary"
+              href={siteProperties.nonprofitApplyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Request a Match
+            </a>
+          </div>
         </div>
       </div>
       <div className="scroll-indicator">

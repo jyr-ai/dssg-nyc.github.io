@@ -4,7 +4,7 @@ import useInViewReveal from './carousel/useInViewReveal';
 import StatCounter from './StatCounter';
 
 const STATS = [
-  { value: '260+', label: 'Registered Volunteers' },
+  { value: '260+', label: 'Training Candidates' },
   { value: '8+', label: 'Partner Organizations' },
   { value: '8+', label: 'Projects Completed' },
   { value: '$40k+', label: 'Pro Bono Value Delivered' }
@@ -18,9 +18,10 @@ const Projects = () => {
     <section className="projects-section white" id="projects">
       <div className="container">
         <div className="projects-header">
-          <h2 className="section-title">Get Involved with NYC DSSG</h2>
+          <h2 className="section-title">The Data Diplomats Training Program</h2>
           <p className="section-subtitle">
-            Join our community of professionals making a difference through technology and data science
+            NYC&apos;s entry-level tech pathway is shrinking. We match career-ready candidates
+            with qualified nonprofits and NGOs that need data and IT help — and cannot hire a full-time team.
           </p>
         </div>
         
@@ -36,45 +37,46 @@ const Projects = () => {
                   <path d="M22 9L12 2L2 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3>Data & IT Professionals</h3>
-              <p className="card-tagline">Use your skills for social good</p>
+              <h3>Career-Ready Candidates</h3>
+              <p className="card-tagline">Train on real problems. Graduate job-ready.</p>
               <div className="card-footer">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8bvJdbx70NBQwizsA2UKAUiZ5AILtc7bWUH0KxOT_ej6MJw/viewform?usp=header" 
                    target="_blank" 
                    rel="noopener noreferrer" 
                    className="button">
-                  Volunteer
+                  Apply to Train
                 </a>
               </div>
             </div>
             
             <div className="card-content">
               <p className="card-description">
-                Join our network of civic technologists advising non-profit 
-                organizations to solve complex challenges through data science, web development, and IT solutions.
+                NYC&apos;s first rung into tech has narrowed — fewer entry-level jobs, more competition,
+                and employers expecting AI-fluent, applied work. Join the Data Diplomats Training Program
+                to practice human-centered AI, data, and IT on live nonprofit projects.
               </p>
 
               <div className="benefits-list">
                 <div className="benefit-item">
                   <div className="benefit-icon">✨</div>
-                  <span>Make meaningful social impact</span>
+                  <span>Career-ready portfolio from live nonprofit work</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">🚀</div>
-                  <span>Build diverse portfolio projects</span>
+                  <span>Human-centered AI, data, and IT skills</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">🤝</div>
-                  <span>Network with like-minded professionals</span>
+                  <span>Matched placement with mission-driven teams</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">📈</div>
-                  <span>Develop new skills & expertise</span>
+                  <span>Experience employers now require at hire</span>
                 </div>
               </div>
               <div className="services-list">
               <div className="service-category">
-              <h4>Practice new skills:</h4>
+              <h4>Train on:</h4>
               <div className="skills-tags">
                 <span className="skill-tag">Applied Data Science</span>
                 <span className="skill-tag">Machine Learning & AI Agents</span>
@@ -110,40 +112,41 @@ const Projects = () => {
                   <path d="M12 16C16.4183 16 20 19.5817 20 24H4C4 19.5817 7.58172 16 12 16Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3>Non-Profit Organizations</h3>
-              <p className="card-tagline">Leverage technology for greater impact</p>
+              <h3>Nonprofits &amp; NGOs</h3>
+              <p className="card-tagline">Federally funded. Still funding-scarce. We bring the talent.</p>
               <div className="card-footer">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScxK78KmTbbF2LnqqVvniWg21DrrU2B8WkvS6euTILKkR18bw/viewform?usp=header" 
                    target="_blank" 
                    rel="noopener noreferrer" 
                    className="button secondary">
-                  Get Advice
+                  Request a Match
                 </a>
               </div>
             </div>
             
             <div className="card-content">
               <p className="card-description">
-                Partner with our passionate volunteers to unlock the power of data and technology for your mission. 
-                Get tailored IT solutions for your organization's unique needs and budget.
+                If grants do not cover a full-time data or IT hire, we match you with trained Data Diplomats
+                who take on your biggest technical problems — dashboards, systems, websites, and
+                human-centered AI — without a full-time tech staff.
               </p>
               
               <div className="benefits-list">
                 <div className="benefit-item">
                   <div className="benefit-icon">💡</div>
-                  <span>Expert pro bono consulting</span>
+                  <span>Matched talent, not a cold volunteer list</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">📊</div>
-                  <span>Data-driven decision making</span>
+                  <span>Data and IT capacity when funds fall short</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">🎯</div>
-                  <span>Customized solutions</span>
+                  <span>Human-centered AI scoped to your mission</span>
                 </div>
                 <div className="benefit-item">
                   <div className="benefit-icon">⚡</div>
-                  <span>Operational efficiency gains</span>
+                  <span>Solutions your budget can actually sustain</span>
                 </div>
               </div>
               

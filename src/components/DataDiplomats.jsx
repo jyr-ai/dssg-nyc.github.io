@@ -3,9 +3,9 @@ import diplomatsData from '../data/diplomats.json';
 import Seo from './Seo';
 import DiplomatsCarousel from './carousel/DiplomatsCarousel';
 
-const CTA_PRIMARY = { label: 'Become a Data Diplomat', href: diplomatsData.applyUrl };
+const CTA_PRIMARY = { label: 'Apply to the Training Program', href: diplomatsData.applyUrl };
 const CTA_SECONDARY = {
-  label: 'Get Advice',
+  label: 'Request a Match',
   href: 'https://docs.google.com/forms/d/e/1FAIpQLScxK78KmTbbF2LnqqVvniWg21DrrU2B8WkvS6euTILKkR18bw/viewform?usp=header',
 };
 
@@ -27,8 +27,8 @@ const DataDiplomats = () => {
   return (
     <>
       <Seo
-        title="Our Data Diplomats - Data Diplomats for Nonprofits"
-        description="Meet our cohorts of Data Diplomats — trained volunteers partnering with nonprofits on data science, AI, and technology projects through DSSG NYC."
+        title="Data Diplomats Training Program — Career-Ready Tech for Nonprofits"
+        description="A career-readiness program that matches job-seeking technologists with funding-scarce nonprofits and NGOs to solve data, IT, and human-centered AI problems."
         type="website"
         name="Data Diplomats for Nonprofits"
       />
@@ -129,7 +129,7 @@ const DataDiplomats = () => {
           </div>
 
           <div className="diplomats-cta">
-            <h3>Ready to Make a Difference?</h3>
+            <h3>Ready to train for career-ready tech work?</h3>
             
             <a
               href={diplomatsData.applyUrl}
@@ -137,7 +137,7 @@ const DataDiplomats = () => {
               rel="noopener noreferrer"
               className="button"
             >
-              Become a Data Diplomat
+              Apply to the Training Program
             </a>
           </div>
         </div>

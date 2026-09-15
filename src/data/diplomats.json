@@ -1,15 +1,15 @@
 {
-  "missionTitle": "About NYC DSSG",
-  "missionLead": "First and foremost, we are community organizers — with a mission to foster a culture of passionate civic technologists dedicated to creating positive social impact through pro bono consulting and volunteer work.",
+  "missionTitle": "The Data Diplomats Training Program",
+  "missionLead": "We treat NYC tech unemployment and nonprofit under-resourcing as one problem: a career-readiness program that matches job-seeking technologists with qualified nonprofits and NGOs that need data and IT help.",
   "missionParagraphs": [
-    "We build cohorts of civic technologists and ethical AI leaders who understand local issues and use technology to provide real solutions in our city — healthy food access, affordable housing, education equity, transportation safety, environmental justice, and public health.",
-    "Founded by the Data Diplomats for Nonprofits (NYC), our volunteer group has grown into a vibrant community of professionals committed to using technology for meaningful social impact."
+    "Entry-level tech job postings in New York City have fallen 49% since 2022 — the steepest drop of any field — while computer science graduates now outnumber those openings. Classroom certificates are no longer enough. Employers want applied, AI-fluent work.",
+    "At the same time, qualified nonprofits and NGOs — often federally funded yet chronically funding-scarce — are priced out of data, IT, and human-centered AI. We train Data Diplomats and match them to those organizations to solve their biggest technical issues, so candidates become career-ready and nonprofits get capacity they cannot hire."
   ],
   "values": [
-    { "icon": "🎯", "title": "Mission-Driven", "description": "Every project we undertake directly supports organizations making a difference in our communities." },
-    { "icon": "🤝", "title": "Collaborative", "description": "We believe the best solutions come from diverse perspectives working together toward common goals." },
-    { "icon": "⚡", "title": "Impact-Focused", "description": "We measure success not just in code deployed, but in lives improved and communities strengthened." },
-    { "icon": "🌱", "title": "Growth-Oriented", "description": "We're committed to continuous learning and helping both volunteers and partners grow their capabilities." }
+    { "icon": "🎯", "title": "Career-Ready", "description": "Every match is a job-prep studio: real stakeholders, real data, and real constraints — the applied experience the first rung of tech now requires." },
+    { "icon": "🤝", "title": "Matched to Mission", "description": "We place candidates with nonprofits and NGOs whose biggest data and IT problems fit their skills, instead of leaving either side to hunt alone." },
+    { "icon": "⚡", "title": "Human-Centered AI", "description": "We teach people to use AI in service of communities and under-resourced staff — not as a reason to erase entry-level jobs." },
+    { "icon": "🌱", "title": "Growth-Oriented", "description": "We organize first, then ship: relationships, strategy, and narrative around every match so both diplomats and partners grow." }
   ],
   "philosophy": {
     "eyebrow": "Our Philosophy",
@@ -35,17 +35,17 @@
       }
     ],
     "theoryOfChangeTitle": "Our Theory of Change",
-    "theoryOfChangeDescription": "We treat two problems as one: nonprofits priced out of technical talent, and skilled professionals — often immigrants, career-changers, and job-seekers — priced out of career-building work. Matching trained volunteers with under-resourced nonprofits for pro bono IT, AI, and data consulting builds career-ready professionals on one side and more resilient, tech-enabled nonprofits on the other."
+    "theoryOfChangeDescription": "We treat two problems as one: NYC's collapsing entry-level tech pathway, and nonprofits priced out of technical talent. Matching trained Data Diplomats with federally funded but funding-scarce nonprofits and NGOs builds career-ready professionals on one side and more resilient, tech-enabled organizations on the other."
   },
   "sectionTitle": "Our Data Diplomats",
-  "entityNote": "Data Diplomats for Nonprofits is a registered 501(c)(3) charity that organizes NYC-DSSG volunteers to deliver pro bono AI strategy and governance for nonprofits. We also have internal Impact Unit that provides AI workshops, training, and consulting for implementing ethical human-centered AI to mission-driven nonprofit organizations.",
+  "entityNote": "Data Diplomats for Nonprofits is a registered 501(c)(3) that runs the Data Diplomats Training Program: career-ready, human-centered AI training that matches candidates with qualified nonprofits and NGOs to deliver pro bono data and IT solutions. Our Impact Unit also provides workshops and consulting for ethical AI in mission-driven organizations.",
   "applyUrl": "https://forms.gle/nKTURDV5PWRRv3Gb9",
   "cohorts": [
     {
       "id": "cohort-1",
       "name": "Cohort 1",
       "term": "Winter 2025",
-      "description": "Our founding cohort of Data Diplomats who launched DSSG NYC and established its mission of civic tech for social good.",
+      "description": "Our founding training cohort of Data Diplomats — career-ready technologists matched with nonprofit partners to launch DSSG NYC.",
       "members": [
         {
           "name": "Jian",
@@ -74,7 +74,7 @@
       "id": "cohort-2",
       "name": "Cohort 2",
       "term": "Spring 2026",
-      "description": "Our second cohort of Data Diplomats — engineers, researchers, and strategists who stepped up to lead nonprofit partners through data science, AI, and civic tech projects.",
+      "description": "Our second training cohort of Data Diplomats — engineers, researchers, and strategists matched with nonprofit partners on data, IT, and human-centered AI projects.",
       "members": [
         {
           "name": "Aarya",
