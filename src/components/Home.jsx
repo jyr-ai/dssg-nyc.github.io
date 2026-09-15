@@ -25,7 +25,7 @@ const Home = () => {
           <h1 className="hero-title">
             {siteProperties.name}
           </h1>
-          <p className="hero-subtitle lead">
+          <p className="hero-subtitle">
             {siteProperties.heroSubtitle}
           </p>
           <p className="hero-description">
