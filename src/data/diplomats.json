@@ -2,8 +2,8 @@
   "missionTitle": "The Data Diplomats Training Program",
   "missionLead": "We treat NYC tech unemployment and nonprofit under-resourcing as one problem: a career-readiness program that matches job-seeking technologists with qualified nonprofits and NGOs that need data and IT help.",
   "missionParagraphs": [
-    "Entry-level tech job postings in New York City have fallen 49% since 2022 — the steepest drop of any field — while computer science graduates now outnumber those openings. Classroom certificates are no longer enough. Employers want applied, AI-fluent work.",
-    "At the same time, qualified nonprofits and NGOs — often federally funded yet chronically funding-scarce — are priced out of data, IT, and human-centered AI. We train Data Diplomats and match them to those organizations to solve their biggest technical issues, so candidates become career-ready and nonprofits get capacity they cannot hire."
+    "Entry-level tech job postings in New York City have fallen 49% since 2022 — putting early-career talent at historic risk of tech unemployment while computer science graduates now outnumber open roles. Traditional degrees alone are no longer enough; employers require applied, production-tested AI experience.",
+    "At the same time, qualified social workers, under-resourced nonprofits, and grassroots NGOs are priced out of technical talent. We train Data Diplomats and match them directly with these community organizations to solve pressing data and IT challenges through human-centered AI — creating career-ready candidates on one side and resilient community organizations on the other."
   ],
   "values": [
     { "icon": "🎯", "title": "Career-Ready", "description": "Every match is a job-prep studio: real stakeholders, real data, and real constraints — the applied experience the first rung of tech now requires." },
@@ -35,7 +35,7 @@
       }
     ],
     "theoryOfChangeTitle": "Our Theory of Change",
-    "theoryOfChangeDescription": "We treat two problems as one: NYC's collapsing entry-level tech pathway, and nonprofits priced out of technical talent. Matching trained Data Diplomats with federally funded but funding-scarce nonprofits and NGOs builds career-ready professionals on one side and more resilient, tech-enabled organizations on the other."
+    "theoryOfChangeDescription": "We treat two problems as one: NYC's collapsing entry-level tech pathway, and grassroots organizations priced out of modern technology. Matching trained Data Diplomats with qualified social workers, under-resourced nonprofits, and NGOs builds career-ready professionals while delivering critical, human-centered data and IT capacity to our communities."
   },
   "sectionTitle": "Our Data Diplomats",
   "entityNote": "Data Diplomats for Nonprofits is a registered 501(c)(3) that runs the Data Diplomats Training Program: career-ready, human-centered AI training that matches candidates with qualified nonprofits and NGOs to deliver pro bono data and IT solutions. Our Impact Unit also provides workshops and consulting for ethical AI in mission-driven organizations.",

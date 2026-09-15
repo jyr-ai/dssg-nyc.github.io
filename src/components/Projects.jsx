@@ -21,7 +21,8 @@ const Projects = () => {
           <h2 className="section-title">The Data Diplomats Training Program</h2>
           <p className="section-subtitle">
             NYC&apos;s entry-level tech pathway is shrinking. We match career-ready candidates
-            with qualified nonprofits and NGOs that need data and IT help — and cannot hire a full-time team.
+            with qualified social workers, under-resourced nonprofits, and grassroots NGOs to solve
+            critical data and IT challenges through human-centered AI.
           </p>
         </div>
         
@@ -113,7 +114,7 @@ const Projects = () => {
                 </svg>
               </div>
               <h3>Nonprofits &amp; NGOs</h3>
-              <p className="card-tagline">Federally funded. Still funding-scarce. We bring the talent.</p>
+              <p className="card-tagline">Under-resourced. Community-driven. We bring the talent.</p>
               <div className="card-footer">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScxK78KmTbbF2LnqqVvniWg21DrrU2B8WkvS6euTILKkR18bw/viewform?usp=header" 
                    target="_blank" 
@@ -126,9 +127,9 @@ const Projects = () => {
             
             <div className="card-content">
               <p className="card-description">
-                If grants do not cover a full-time data or IT hire, we match you with trained Data Diplomats
-                who take on your biggest technical problems — dashboards, systems, websites, and
-                human-centered AI — without a full-time tech staff.
+                We match qualified social workers, under-resourced nonprofits, and grassroots NGOs
+                with trained Data Diplomats who take on your biggest technical challenges — dashboards,
+                systems integration, and human-centered AI — without overhead.
               </p>
               
               <div className="benefits-list">

@@ -28,7 +28,7 @@ const DataDiplomats = () => {
     <>
       <Seo
         title="Data Diplomats Training Program — Career-Ready Tech for Nonprofits"
-        description="A career-readiness program that matches job-seeking technologists with funding-scarce nonprofits and NGOs to solve data, IT, and human-centered AI problems."
+        description="A career-readiness program that matches job-seeking technologists with qualified social workers, under-resourced nonprofits, and NGOs to solve real community data challenges through human-centered AI."
         type="website"
         name="Data Diplomats for Nonprofits"
       />

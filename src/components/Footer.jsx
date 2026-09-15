@@ -34,8 +34,9 @@ const Footer = () => {
               </div>
               <p className="brand-description">
                 We&apos;re a 501(c)(3) that runs the Data Diplomats Training Program —
-                matching career-ready NYC technologists with funding-scarce nonprofits
-                to solve data, IT, and human-centered AI problems. IRS-registered, EIN 41-4925712.
+                matching job-seeking technologists with qualified social workers, under-resourced
+                nonprofits, and NGOs to solve real community data challenges through human-centered AI.
+                IRS-registered, EIN 41-4925712.
               </p>
               <div className="social-links">
                 {Object.entries(siteProperties.socialProfiles).map(([key, value]) => {

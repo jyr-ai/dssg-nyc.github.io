@@ -97,9 +97,9 @@ export default function Experience({
             <p className="exp-eyebrow">The problem, part one</p>
             <h2 className="exp-headline">Entry-level tech jobs, gone.</h2>
             <p className="exp-body">
-              NYC entry-level tech postings have fallen 49% since 2022. Skilled
-              candidates — career-changers, new grads, and laid-off workers — sit
-              underemployed while employers raise the bar for AI-fluent, applied work.
+              NYC entry-level tech postings have fallen 49% since 2022, putting young
+              professionals at historic risk of unemployment while employers demand
+              proven, human-centered AI experience.
             </p>
           </div>
 
@@ -107,9 +107,9 @@ export default function Experience({
             <p className="exp-eyebrow">The problem, part two</p>
             <h2 className="exp-headline">Nonprofits, starved of tech.</h2>
             <p className="exp-body">
-              Qualified nonprofits and NGOs are often federally funded yet
-              funding-scarce. Human-centered data and IT stay out of reach while
-              their biggest operational problems wait.
+              Social workers, under-resourced nonprofits, and grassroots NGOs lack the
+              budgets for dedicated data teams, leaving vital community services without
+              modern IT support.
             </p>
           </div>
 
@@ -117,9 +117,9 @@ export default function Experience({
             <p className="exp-eyebrow">The solution</p>
             <h2 className="exp-headline">The Data Diplomats Training Program.</h2>
             <p className="exp-body">
-              We train candidates to be career-ready, then match them with
-              under-resourced nonprofits to solve real data and IT issues — one
-              pipeline, pro bono, human-centered AI.
+              We train candidates to be career-ready, matching them with
+              grassroots organizations to solve real data and IT challenges
+              through human-centered AI.
             </p>
             <div className="exp-cta-row">
               <a

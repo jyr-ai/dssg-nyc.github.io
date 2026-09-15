@@ -82,9 +82,9 @@ const Book = () => {
           <div className="book-header">
             <h2 className="section-title">Partner With Us</h2>
             <p className="section-subtitle">
-              Job-seeking technologists get career-ready experience. Federally funded but
-              funding-scarce nonprofits get matched data and IT talent. Book a conversation
-              to join the training program or request a nonprofit match.
+            Job-seeking technologists get career-ready experience. Qualified social
+            workers, under-resourced nonprofits, and NGOs get matched data and IT talent.
+            Book a conversation to join the training program or request an organization match.
             </p>
           </div>
 
