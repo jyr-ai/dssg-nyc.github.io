@@ -23,8 +23,8 @@ function App() {
           <Route path="/" element={
             <>
               <Seo
-                title="NYC x DSSG - Data Science for Social Good"
-                description="Pro Bono IT, Data and AI consulting for Non-Profits in New York City. Connect with skilled professionals making a difference through technology."
+                title="NYC x DSSG — Career-Ready Tech Training for Nonprofits"
+                description="Early-career young talent is facing a higher risk of prolonged unemployment as entry-level jobs have significantly plummeted recently. The Data Diplomats Training Program matches job-seeking technologists and recent grads to the nonprofit sector, a social innovation that redirects AI talent from big tech firms to small nonprofits enabling social workers and NGOs to solve real grassroots social challenges through human-centered AI."
                 type="website"
                 name="NYC x DSSG"
               />

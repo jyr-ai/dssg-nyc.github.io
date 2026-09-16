@@ -10,7 +10,7 @@ const Events = () => {
     <>
       <Seo
         title="Events - DSSG NYC"
-        description="Join our upcoming Data Science for Social Good events in New York City. Connect with like-minded professionals and make a difference through technology."
+        description="Meetups and workshops for career-ready technologists and nonprofit partners using human-centered AI, data, and IT for social good."
         type="website"
         name="DSSG NYC Events"
       />
@@ -18,7 +18,7 @@ const Events = () => {
       <div className="events-container">
         <div className="events-hero">
           <h1>Upcoming Events</h1>
-          <p>Join our community of data scientists and social good enthusiasts</p>
+          <p>Join career-ready technologists and nonprofit partners building human-centered AI for social good</p>
         </div>
 
         <div className="events-content">
@@ -38,9 +38,10 @@ const Events = () => {
             <div className="events-info-content">
               <h2>About Our Events</h2>
               <p>
-                DSSG NYC hosts regular meetups, workshops, and networking events focused on
-                using data science and AI for social good. Our events bring together professionals,
-                students, and non-profit organizations to collaborate on meaningful projects.
+                DSSG NYC hosts regular meetups, workshops, and training events focused on
+                career-ready, human-centered AI for under-resourced nonprofits. Our events
+                bring together job-seeking technologists, students, and nonprofit partners
+                to collaborate on live data and IT projects.
               </p>
 
               <div className="event-details">
