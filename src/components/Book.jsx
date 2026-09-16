@@ -6,7 +6,7 @@ import siteProperties from "../data/siteproperties.json";
 const benefits = [
   {
     title: "Hands on AI Workshops",
-    description: "We run hands-on Claude Code and agentic AI bootcamps that build your nonprofit team's automation skills, with member discounts and completion certificates included.",
+    description: "Career-ready Claude Code and agentic AI bootcamps that teach human-centered automation — the applied skills NYC entry-level hiring now demands — with member discounts and completion certificates.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 3L2 8L12 13L22 8L12 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -16,8 +16,8 @@ const benefits = [
     )
   },
   {
-    title: "Access Our Volunteer Network",
-    description: "Tap our network of roughly 500 vetted IT, AI, and data professionals for pro bono consulting, dedicated office hours, and hands-on project support.",
+    title: "Matched Talent Network",
+    description: "We match you with trained Data Diplomats from our network of IT, AI, and data professionals for pro bono consulting, office hours, and hands-on project support.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="6" cy="6" r="2.5" stroke="currentColor" strokeWidth="2"/>
@@ -82,14 +82,15 @@ const Book = () => {
           <div className="book-header">
             <h2 className="section-title">Partner With Us</h2>
             <p className="section-subtitle">
-              Ready to make a difference? Whether you're a skilled professional looking to volunteer
-              or a non-profit seeking data-driven solutions, let's start a conversation about how we can work together.
+            Job-seeking technologists get career-ready experience. Qualified social
+            workers, under-resourced nonprofits, and NGOs get matched data and IT talent.
+            Book a conversation to join the training program or request an organization match.
             </p>
           </div>
 
           <div className="partnership-grid">
             <div className="partnership-info" ref={infoRef}>
-              <h3>Become a Member</h3>
+              <h3>Join the Training Program</h3>
               <div className="info-list">
                 {benefits.map((benefit) => (
                   <div className="info-item" key={benefit.title}>
