@@ -24,7 +24,7 @@ function App() {
             <>
               <Seo
                 title="NYC x DSSG — Career-Ready Tech Training for Nonprofits"
-                description="Early-career young talent is facing a higher risk of prolonged unemployment as entry-level jobs have significantly plummeted recently. The Data Diplomats Training Program matches job-seeking technologists and recent grads to the nonprofit sector, a social innovation that redirects AI talent from big tech firms to small nonprofits enabling social workers and NGOs to solve real grassroots social challenges through human-centered AI."
+                description="Early-career young talent is facing a higher risk of prolonged unemployment as entry-level jobs have significantly plummeted recently. The Data Diplomats Training Program matches job-seeking technologists and recent grads to the nonprofit sector wth the mission to enable social workers and NGOs to solve real grassroots challenges using human-centered AI."
                 type="website"
                 name="NYC x DSSG"
               />
