@@ -17,8 +17,8 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Experience({
   title = 'NYC Data Science for Social Good',
   description = '',
-  primaryCta = { label: 'Volunteer', href: '/get-involved' },
-  secondaryCta = { label: 'Get Advice', href: '/partner-with-us' },
+  primaryCta = { label: 'Apply to Train', href: '/get-involved' },
+  secondaryCta = { label: 'Request a Match', href: '/partner-with-us' },
 }) {
   const wrapRef = useRef(null)
   const stickyRef = useRef(null)
@@ -87,7 +87,7 @@ export default function Experience({
 
         <div className="exp-overlays">
           <div className="exp-block exp-hero">
-            <p className="exp-eyebrow">Data Science for Social Good · NYC</p>
+            <p className="exp-eyebrow">Career Readiness · Human-Centered AI</p>
             <h1 className="exp-title">{title}</h1>
             <p className="exp-lead">{description}</p>
             <p className="exp-scrollcue">Scroll to see why we exist ↓</p>
@@ -95,10 +95,11 @@ export default function Experience({
 
           <div className="exp-block exp-a">
             <p className="exp-eyebrow">The problem, part one</p>
-            <h2 className="exp-headline">Local talent, left idle.</h2>
+            <h2 className="exp-headline">Entry-level tech jobs, gone.</h2>
             <p className="exp-body">
-              Skilled young developers — many from underserved NYC communities — sit
-              underemployed while their potential fragments and drifts apart.
+              NYC entry-level tech postings have fallen 49% since 2022, putting young
+              professionals at historic risk of unemployment while employers demand
+              proven, human-centered AI experience.
             </p>
           </div>
 
@@ -106,17 +107,19 @@ export default function Experience({
             <p className="exp-eyebrow">The problem, part two</p>
             <h2 className="exp-headline">Nonprofits, starved of tech.</h2>
             <p className="exp-body">
-              Mission-driven organizations fall behind as funding thins and modern,
-              human-centered technology stays out of reach.
+              Social workers, under-resourced nonprofits, and grassroots NGOs lack the
+              budgets for dedicated data teams, leaving vital community services without
+              modern IT support.
             </p>
           </div>
 
           <div className="exp-block exp-sol">
             <p className="exp-eyebrow">The solution</p>
-            <h2 className="exp-headline">The Data Diplomats.</h2>
+            <h2 className="exp-headline">The Data Diplomats Training Program.</h2>
             <p className="exp-body">
-              We connect displaced technologists directly into nonprofit
-              infrastructure — one integrated network, pro bono, for social good.
+              We train candidates to be career-ready, matching them with
+              grassroots organizations to solve real data and IT challenges
+              through human-centered AI.
             </p>
             <div className="exp-cta-row">
               <a

@@ -73,8 +73,8 @@ const Writing = () => {
         <div className="writing-header">
           <h2 className="section-title">Our Impact Stories</h2>
           <p className="section-subtitle">
-            Discover the real-world impact we're creating together and access resources 
-            to help your organization or volunteer journey
+            See how career-ready Data Diplomats and funding-scarce nonprofits
+            ship real data, IT, and human-centered AI work together
           </p>
         </div>
         

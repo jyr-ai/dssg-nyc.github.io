@@ -5,7 +5,7 @@ const Portfolio = () => (
   <>
     <Seo
       title="Our Portfolio - NYC x DSSG"
-      description="Open source civic tech built by NYC x DSSG volunteers — FOIA Fluent, Unredacted Monitor, GrantPilot AI, and the NYC Land Use & ZAP Tracker."
+      description="Open source civic tech built by Data Diplomats trainees and partners — FOIA Fluent, Unredacted Monitor, GrantPilot AI, and the NYC Land Use & ZAP Tracker."
       type="website"
       name="Our Portfolio"
     />
