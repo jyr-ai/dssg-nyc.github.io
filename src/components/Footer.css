@@ -215,3 +215,26 @@
     justify-content: flex-start;
   }
 }
+
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs) !important;
+}
+
+.footer-legal-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: underline;
+}
+
+.footer-legal-links .footer-link-button {
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-legal-links {
+    justify-content: center;
+  }
+}

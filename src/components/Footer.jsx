@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { openConsentSettings } from '../consent';
 import PropTypes from 'prop-types';
 import DonateModal from './DonateModal';
 import './Footer.css';
@@ -51,6 +53,12 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="footer-legal">
               <p>&copy; 2026 Data Diplomats for Nonprofits, Inc. — 501(c)(3) IRS-registered organization. All rights reserved.</p>
+              <p className="footer-legal-links">
+                <Link to="/privacy">Privacy Policy</Link>
+                <Link to="/cookies">Cookie Policy</Link>
+                <Link to="/ai-policy">AI Policy</Link>
+                <button type="button" className="footer-link-button" onClick={openConsentSettings}>Cookie settings</button>
+              </p>
             </div>
             <div className="footer-attribution">
               <p className="footer-address">{siteProperties.address}</p>
