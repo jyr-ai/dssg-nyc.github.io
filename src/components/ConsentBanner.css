@@ -1,0 +1,84 @@
+.consent-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  background: #fff;
+  color: #2d3a41;
+  border-top: 3px solid var(--primary-orange);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.15);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.consent-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+.consent-text {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.consent-text a {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.consent-options {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.consent-options li {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.consent-options li span {
+  color: #555;
+  margin-left: 1.5rem;
+}
+
+.consent-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+/* Reject and Accept share identical weight so neither choice is nudged. */
+.consent-btn {
+  padding: 0.6rem 1.1rem;
+  border: 2px solid var(--primary-blue);
+  background: #fff;
+  color: var(--primary-blue);
+  border-radius: var(--radius-md);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.consent-btn-primary {
+  background: var(--primary-blue);
+  color: #fff;
+}
+
+.consent-btn:focus-visible {
+  outline: 3px solid var(--primary-orange);
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .consent-actions {
+    flex-direction: column;
+  }
+}

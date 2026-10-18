@@ -1,6 +1,7 @@
 import React from 'react';
 import './Events.css';
 import Seo from './Seo';
+import EmbedGate from './EmbedGate';
 
 const LUMA_EMBED_URL = 'https://luma.com/embed/calendar/cal-4VqcQEpR4zqBF8Q/events';
 const LUMA_CALENDAR_URL = 'https://luma.com/calendar/cal-4VqcQEpR4zqBF8Q';
@@ -23,15 +24,17 @@ const Events = () => {
 
         <div className="events-content">
           <div className="events-embed-section">
-            <iframe
-              src={LUMA_EMBED_URL}
-              className="luma-embed"
-              frameBorder="0"
-              allowFullScreen
-              aria-hidden="false"
-              tabIndex="0"
-              title="DSSG NYC Events Calendar"
-            />
+            <EmbedGate provider="Luma">
+              <iframe
+                src={LUMA_EMBED_URL}
+                className="luma-embed"
+                frameBorder="0"
+                allowFullScreen
+                aria-hidden="false"
+                tabIndex="0"
+                title="DSSG NYC Events Calendar"
+              />
+            </EmbedGate>
           </div>
 
           <div className="events-info-large">
