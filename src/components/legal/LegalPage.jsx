@@ -1,18 +1,27 @@
 import PropTypes from 'prop-types';
 import Seo from '../Seo';
+import PageIntro from '../PageIntro';
 import './LegalPage.css';
 
-export const EFFECTIVE_DATE = 'October 18, 2026';
+const LEGAL_EFFECTIVE_DATE = 'October 18, 2026';
 
 const LegalPage = ({ title, description, children }) => (
-  <>
-    <Seo title={`${title} - NYC x DSSG`} description={description} type="website" name={title} />
-    <main className="legal-page">
-      <h1>{title}</h1>
-      <p className="legal-meta">Effective date: {EFFECTIVE_DATE}</p>
-      {children}
-    </main>
-  </>
+  <div className="legal-page">
+    <Seo
+      title={`${title} - NYC x DSSG`}
+      description={description}
+      type="website"
+      name={title}
+    />
+    <PageIntro eyebrow="Legal" title={title}>
+      Last updated on {LEGAL_EFFECTIVE_DATE}
+    </PageIntro>
+    <section className="legal-body">
+      <article className="legal-article paper-card">
+        {children}
+      </article>
+    </section>
+  </div>
 );
 
 LegalPage.propTypes = {

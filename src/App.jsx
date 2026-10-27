@@ -13,7 +13,7 @@ import Events from './components/Events';
 import DataDiplomats from './components/DataDiplomats';
 import Portfolio from './components/Portfolio';
 import ScrollToTop from './components/ScrollToTop';
-import ConsentBanner from './components/ConsentBanner';
+import CookieConsent from './components/CookieConsent';
 import PrivacyPolicy from './components/legal/PrivacyPolicy';
 import CookiePolicy from './components/legal/CookiePolicy';
 import AiPolicy from './components/legal/AiPolicy';
@@ -48,7 +48,7 @@ function App() {
           <Route path="/ai-policy" element={<AiPolicy />} />
         </Routes>
         <Footer />
-        <ConsentBanner />
+        <CookieConsent />
       </div>
   );
 }
